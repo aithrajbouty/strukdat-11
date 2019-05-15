@@ -93,7 +93,7 @@ void level(Tree Root, int l){
 void urutanLevel(Tree Root){
     int dalam=kedalaman(Root);
     for(int i=1;i<dalam;i++){
-        cout << i << " ";
+        cout << i << " : ";
         level(Root,i);
         cout << endl;
     }
